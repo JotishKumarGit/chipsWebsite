@@ -89,8 +89,8 @@
 #note small {
     position: relative;
     display: inline-block;
-    animation: mymove 5s infinite;
-    animation-timing-function: all;
+    animation: mymove 10s infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes mymove {
@@ -689,36 +689,37 @@ Services End ***/
     object-fit: cover;
 
  } */
-.bg-about{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 0, 0, 0.747)), url(../assets/img/aboutBackground.jpg);
+.bg-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.747)), url(../assets/img/aboutBackground.jpg);
     height: 35vh;
     background-size: cover;
     width: 100%;
     background-position: center;
-  
+
 }
 
-.bg-services{
-    background-image: linear-gradient(rgba(56, 54, 54, 0.829),rgba(36, 19, 19, 0.89)), url(../assets/img/about.jpeg);
+.bg-services {
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/about.jpeg);
     height: 35vh;
     background-size: cover;
     width: 100%;
     background-position: center;
 }
-.bg-products{
-    background-image: linear-gradient(rgba(56, 54, 54, 0.829),rgba(36, 19, 19, 0.89)), url(../assets/img/pbackground.jpeg);
+
+.bg-products {
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/pbackground.jpeg);
     height: 35vh;
     background-size: cover;
     width: 100%;
-    background-position: center; 
+    background-position: center;
 }
 
-.bg-contact{
-    background-image: linear-gradient(rgba(56, 54, 54, 0.658),rgba(36, 19, 19, 0.74)), url(../assets/img/b-contact.png);
+.bg-contact {
+    background-image: linear-gradient(rgba(56, 54, 54, 0.658), rgba(36, 19, 19, 0.74)), url(../assets/img/b-contact.png);
     height: 35vh;
     background-size: cover;
     width: 100%;
-    background-position: center;  
+    background-position: center;
 }
 
 /* .content{
@@ -728,6 +729,6 @@ Services End ***/
  } */
 
 /* Crousel */
-.d-block{
+.d-block {
     object-fit: cover;
 }
