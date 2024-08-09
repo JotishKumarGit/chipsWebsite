@@ -722,6 +722,55 @@ Services End ***/
     background-position: center;
 }
 
+/* bg for papad */
+.bg-papad{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/papad2.webp);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;  
+}
+/* bg for food right */
+.bg-foodright{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/foodrite2.webp);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;  
+}
+
+/* bg for food right */
+.bg-delmonte{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/delmonte2.png);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;  
+}
+
+.bg-tea{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/tea2.webp);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center; 
+}
+.bg-panipuri{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/panipuri1.png);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center; 
+}
+.bg-fry{
+    background-image: linear-gradient(rgba(56, 54, 54, 0.829), rgba(36, 19, 19, 0.89)), url(../assets/img/fry-3.jpeg);
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center; 
+}
+
+
 /* .content{
     position: absolute;
     top: 150px;
